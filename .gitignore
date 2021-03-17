@@ -1,0 +1,10 @@
+.venv
+.env
+dist
+ebike-304416-11ee9b39200d.json
+app.log
+requirements-*
+git.csv
+.DS_Store
+__pycache__/
+
