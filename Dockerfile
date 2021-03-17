@@ -26,10 +26,12 @@ RUN pip install --upgrade pip
 
 WORKDIR /usr/workspace
 
+# copy source files to workspace
 COPY . .
 
+# install requirements
 RUN pip install -r requirements.txt
 
+# entry point
 CMD ["/bin/bash", "run.sh"]
 
-#CMD ["run.sh"]
